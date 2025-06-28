@@ -585,6 +585,78 @@
           ],
           "cost": 4000,
           "character": "Freja"
+        },
+        {
+          "name": "VELOCITY VECTOR",
+          "attributes": [
+            {
+              "type": "AS",
+              "value": "10%"
+            },
+            {
+              "type": "[Hyperspheres] Range",
+              "value": "15%"
+            }
+          ],
+          "cost": 4500,
+          "character": "Sigma"
+        },
+        {
+          "name": "MAGLEV MULTIPLIER",
+          "attributes": [
+            {
+              "type": "WP",
+              "value": "10%"
+            },
+            {
+              "type": "AP",
+              "value": "5%"
+            },
+            {
+              "type": "description",
+              "value": "<b>[Gravitic Flux]</b> levitates enemies for <b>25%</b> longer. Enemies affected take <b>20%</b> increased damage from <b>[Hyperspheres]</b>."
+            }
+          ],
+          "cost": 5000,
+          "character": "Sigma"
+        },
+        {
+          "name": "SPIKED GLOVES",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "WP",
+              "value": "5%"
+            },
+            {
+              "type": "description",
+              "value": "Deal <b>10%</b> increased damage and <b>25%</b> <b>[Quick Melee]</b> damage to enemies that are airborne."
+            }
+          ],
+          "cost": 4500,
+          "character": "Junkrat"
+        },
+        {
+          "name": "SPRINGIER SPRING",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "AS",
+              "value": "5%"
+            },
+            {
+              "type": "[Frag Launcher] Bounce Distance",
+              "value": "25%"
+            }
+          ],
+          "cost": 4500,
+          "character": "Junkrat"
         }
       ],
       "epic": [
@@ -1267,6 +1339,93 @@
           ],
           "cost": 10000,
           "character": "Freja"
+        },
+        {
+          "name": "ANTIMATTER",
+          "attributes": [
+            {
+              "type": "WP",
+              "value": "15%"
+            },
+            {
+              "type": "[Hypersphere] Explosion Radius",
+              "value": "35%"
+            }
+          ],
+          "cost": 10000,
+          "character": "Sigma"
+        },
+        {
+          "name": "ZIP GREASE",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "WP",
+              "value": "5%"
+            },
+            {
+              "type": "description",
+              "value": "After detonating <b>[Concussion Mine]</b>, your next <b>2</b> <b>[Frag Launcher]</b> shots gain <b>200%</b> Projectile Speed and deal <b>10%</b> increased damage to airborne enemies."
+            }
+          ],
+          "cost": 10000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "HASTE SUBROUTINE",
+          "attributes": [
+            {
+              "type": "AS",
+              "value": "15%"
+            },
+            {
+              "type": "description",
+              "value": "After using <b>[Harmony Orb]</b> or <b>[Discord Orb]</b>, gain <b>100%</b> Projectile Speed for"
+            }
+          ],
+          "cost": 11000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "GENJI'S GALVANIC GLOVES",
+          "attributes": [
+            {
+              "type": "WP",
+              "value": "10%"
+            },
+            {
+              "type": "AS",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "<b>[Orb of Destruction]</b>'s secondary fire charges <b>20%</b> faster."
+            }
+          ],
+          "cost": 12000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "ORB OF PERCEPTION",
+          "attributes": [
+            {
+              "type": "WP",
+              "value": "15%"
+            },
+            {
+              "type": "AP",
+              "value": "15%"
+            },
+            {
+              "type": "description",
+              "value": "Targets affected by <b>[Discord Orb]</b> are <b>Revealed</b>."
+            }
+          ],
+          "cost": 11000,
+          "character": "Zenyatta"
         }
       ]
     },
@@ -1904,6 +2063,108 @@
           ],
           "cost": 4000,
           "character": "Freja"
+        },
+        {
+          "name": "VOLATILE GRAVEL",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "When you deal damage with <b>[Accretion]</b>, gain <b>5%</b> Ability Power, stacking up to 4 times. Resets on miss."
+            }
+          ],
+          "cost": 4000,
+          "character": "Sigma"
+        },
+        {
+          "name": "CONTAINMENT FIELD",
+          "attributes": [
+            {
+              "type": "CR",
+              "value": "10%"
+            },
+            {
+              "type": "[Kinetic Grasp] Duration",
+              "value": "50%"
+            }
+          ],
+          "cost": 5000,
+          "character": "Sigma"
+        },
+        {
+          "name": "IMPROVISED EXPLOSIVES",
+          "attributes": [
+            {
+              "type": "ALS",
+              "value": "10%"
+            },
+            {
+              "type": "Starting Ultimate Charge",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "After detonating <b>[Rip Tire]</b>, trigger <b>[Total Mayhem]</b> after <b>0.</b><b>5s</b>."
+            }
+          ],
+          "cost": 4000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "RAT PACK",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "5%"
+            },
+            {
+              "type": "[Steel Trap] Health",
+              "value": "50%"
+            },
+            {
+              "type": "description",
+              "value": "<b>[Steel Trap]</b> refunds <b>33%</b> cooldown when destroyed."
+            }
+          ],
+          "cost": 4000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "BREEZEBORNE BLESSING",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "<b>[Harmony Orb]</b> heals airborne allies for <b>15%</b> more."
+            }
+          ],
+          "cost": 4000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "SAITYA'S SOLUTION",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "MS",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "While <b>[Transcendence]</b> is active, its radius increases by <b>1m</b> every <b>1s</b>."
+            }
+          ],
+          "cost": 4000,
+          "character": "Zenyatta"
         }
       ],
       "epic": [
@@ -2811,6 +3072,131 @@
           ],
           "cost": 10000,
           "character": "Freja"
+        },
+        {
+          "name": "THE HARNESS",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "25%"
+            },
+            {
+              "type": "[Accretion] Explosion Radius",
+              "value": "50%"
+            }
+          ],
+          "cost": 11000,
+          "character": "Sigma"
+        },
+        {
+          "name": "CHARGED CHOMPAS",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "50"
+            },
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "Whenever <b>[Total Mayhem]</b> deals damage, gain <b>3%</b> Ultimate Charge."
+            }
+          ],
+          "cost": 10000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "FAWKES' FUNNY FUEL™",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "ALS",
+              "value": "10%"
+            },
+            {
+              "type": "[Concussion Mine] Explosion Radius",
+              "value": "15%"
+            },
+            {
+              "type": "description",
+              "value": "If <b>[Concussion Mine]</b> is <b>5m</b> above the ground when detonated, increase its explosion radius by <b>25%</b>."
+            }
+          ],
+          "cost": 10000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "LITHIUM ALLOY",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "[Steel Trap] Throw Distance",
+              "value": "50%"
+            },
+            {
+              "type": "description",
+              "value": "Enemies that trigger <b>[Steel Trap]</b> Burn for <b class=\"stat-ap\">50</b> damage over <b>3s</b>."
+            }
+          ],
+          "cost": 10000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "FRIENDSHIP BRACELET",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "Increase your healing by up to <b>20%</b>, based on how close you are to your target."
+            }
+          ],
+          "cost": 11000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "MIND SHAPER",
+          "attributes": [
+            {
+              "type": "AP",
+              "value": "15%"
+            },
+            {
+              "type": "Starting Ultimate Charge",
+              "value": "15%"
+            },
+            {
+              "type": "description",
+              "value": "Allies affected by <b>[Transcendence]</b> have their cooldowns refresh <b>15%</b> faster."
+            }
+          ],
+          "cost": 12000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "MONDATTA'S MANTRA",
+          "attributes": [
+            {
+              "type": "Transcendence Duration",
+              "value": "30%"
+            },
+            {
+              "type": "description",
+              "value": "After <b>[Transcendence]</b> ends, gain <b>Overhealth</b> equal to <b>100%</b> of the healing it did."
+            }
+          ],
+          "cost": 11000,
+          "character": "Zenyatta"
         }
       ]
     },
@@ -3686,6 +4072,100 @@
           ],
           "cost": 4500,
           "character": "Freja"
+        },
+        {
+          "name": "SYNCED SHIELDING",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "25"
+            },
+            {
+              "type": "description",
+              "value": "While behind <b>[Experimental Barrier]</b>, gain <b>5%</b> Weapon Power and Attack Speed. While in front of <b>[Experimental Barrier]</b>, gain <b>10%</b> Move Speed and Weapon Lifesteal."
+            }
+          ],
+          "cost": 4500,
+          "character": "Sigma"
+        },
+        {
+          "name": "BEAM SPLITTER",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "25"
+            },
+            {
+              "type": "CR",
+              "value": "5%"
+            },
+            {
+              "type": "description",
+              "value": "While <b>[Kinetic Grasp]</b> is active, reduce incoming Beam damage by <b>50%</b>."
+            }
+          ],
+          "cost": 4000,
+          "character": "Sigma"
+        },
+        {
+          "name": "THERMAL TRAPS",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "description",
+              "value": "When <b>[Steel Trap]</b> triggers, reveal the target and gain <b>25%</b> Move Speed and <b>10%</b> Attack Speed for <b>3s</b>."
+            }
+          ],
+          "cost": 4000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "HIKING HOVERBOOTS",
+          "attributes": [
+            {
+              "type": "MS",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "While airborne, hold Jump to hover for up to <b>3s</b>."
+            }
+          ],
+          "cost": 4000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "TRANSFERENCE PROTOCOL",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "25"
+            },
+            {
+              "type": "description",
+              "value": "When you charge an orb with <b>[Orb of Destruction]</b>'s secondary fire, restore for <b>3%</b> of your Life."
+            }
+          ],
+          "cost": 4500,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "KEEPSAKE OF CHAOS",
+          "attributes": [
+            {
+              "type": "Armor",
+              "value": "25"
+            },
+            {
+              "type": "description",
+              "value": "Eliminating an enemy affected by <b>[Discord Orb]</b> grants <b>5</b> Armor for the rest of the round, up to <b>50</b> Armor."
+            }
+          ],
+          "cost": 4000,
+          "character": "Zenyatta"
         }
       ],
       "epic": [
@@ -4377,6 +4857,85 @@
           ],
           "cost": 9000,
           "character": "Freja"
+        },
+        {
+          "name": "DE KUIPER'S THESIS",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "50"
+            },
+            {
+              "type": "description",
+              "value": "<b>[Experimental Barrier]</b> heals nearby allies for <b>3%</b> of your max Life every <b>1s</b>."
+            }
+          ],
+          "cost": 11000,
+          "character": "Sigma"
+        },
+        {
+          "name": "REFRESHING RADIATION",
+          "attributes": [
+            {
+              "type": "CR",
+              "value": "10%"
+            },
+            {
+              "type": "[Concussion Mine] Health",
+              "value": "50%"
+            },
+            {
+              "type": "description",
+              "value": "For each target detonated by <b>[Concussion Mine]</b>, gain Overhealth equal to <b>5%</b> of Max Life for <b>3s</b>."
+            }
+          ],
+          "cost": 10000,
+          "character": "Junkrat"
+        },
+        {
+          "name": "GOLDEN MONK",
+          "attributes": [
+            {
+              "type": "Armor",
+              "value": "50"
+            },
+            {
+              "type": "description",
+              "value": "For every <b>50</b> Armor you have, gain <b>5%</b> <b>[Quick Melee]</b> Damage."
+            }
+          ],
+          "cost": 10000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "MEDITATION MAT",
+          "attributes": [
+            {
+              "type": "Armor",
+              "value": "50"
+            },
+            {
+              "type": "description",
+              "value": "When your Shields are depleted, knock back nearby enemies, dealing <b class=\"stat-ap\">80</b> damage. Can only trigger every <b>6s</b> after Shields are fully restored."
+            }
+          ],
+          "cost": 10000,
+          "character": "Zenyatta"
+        },
+        {
+          "name": "TEACHER'S TOTEM",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "50"
+            },
+            {
+              "type": "description",
+              "value": "Allies affected by <b>[Harmony Orb]</b> take <b>10%</b> reduced Ability Damage."
+            }
+          ],
+          "cost": 10000,
+          "character": "Zenyatta"
         }
       ]
     },
@@ -5483,6 +6042,156 @@
         {
           "name": "MIGHTY GUST",
           "description": "<b>[Updraft]</b> launches a wind blast towards your crosshair, knocking back enemies and dealing <b class=\"stat-ap\">40</b> damage."
+        }
+      ],
+      "Sigma": [
+        {
+          "name": "ZERO GRAVITY",
+          "description": "When you use an ability, gain the ability to fly for <b>2.5s</b>."
+        },
+        {
+          "name": "HYPERLOOP",
+          "description": "<b>[Hyperspheres]</b> direct hits reduce the cooldown of <b>[Accretion]</b> by <b>0.5s</b>."
+        },
+        {
+          "name": "TRINISPHERE",
+          "description": "Your primary fire launches a third <b>[Hypersphere]</b> that deals <b>50%</b> <b>reduced</b> damage."
+        },
+        {
+          "name": "EVENT HORIZON",
+          "description": "Damage absorbed by <b>[Kinetic Grasp]</b> also restores <b>[Experimental Barrier]</b>'s health. Excess is converted to <b>Overhealth</b>."
+        },
+        {
+          "name": "SYMPHONIC SYZYGY",
+          "description": "When <b>[Kinetic Grasp]</b> ends, for every <b>100</b> damage absorbed gain <b>10%</b> Attack Speed for <b>4s</b>, stacking up to <b>4 times</b>."
+        },
+        {
+          "name": "ORBITAL BARRIER",
+          "description": "Get a mini <b>[Experimental Barrier]</b> that orbits around you. It has <b>50%</b> <b>reduced</b> health."
+        },
+        {
+          "name": "PHILHARMONIC FORTITUDE",
+          "description": "<b>[Experimental Barrier]</b> has <b>25%</b> increased Max Health. Barrier health regenerates constantly but <b>50%</b> slower while deployed."
+        },
+        {
+          "name": "MASS DRIVER",
+          "description": "<b>[Accretion]</b> projectiles that pass through <b>[Experimental Barrier]</b> gain <b>300%</b> Projectile Speed and deal <b>20%</b> increased damage."
+        },
+        {
+          "name": "SINGULARITY",
+          "description": "<b>[Accretion]</b> splash damage is increased by <b>25%</b> and enemies are pulled towards its explosion."
+        },
+        {
+          "name": "MAESTRO",
+          "description": "<b>50%</b> Ultimate Cost Reduction.\n<b>[Gravitic Flux]</b> Radius is reduced by <b>50%</b>."
+        },
+        {
+          "name": "APOGEE ALIGNMENT",
+          "description": "When you use an ability, create <b>2</b> <b>[Hyperspheres]</b> that orbit around you.\nThey explode on contact but deal <b>50%</b> reduced damage."
+        },
+        {
+          "name": "ASTROPHYSICAL",
+          "description": "<b>[Quick Melee]</b> causes enemies hit to levitate into the air for <b>1s</b>.\n(<b>10s</b> Cooldown)"
+        }
+      ],
+      "Junkrat": [
+        {
+          "name": "2 FRAG 2 FRURIOUS",
+          "description": "<b>[Frag Launcher]</b> has a <b>25%</b> chance to shoot an additional projectile that deals <b>66%</b> <b>reduced</b> damage."
+        },
+        {
+          "name": "BANGO!",
+          "description": "<b>[Frag Launcher]</b> Direct Hits without bouncing Burn for <b>20%</b> additional damage over <b>2s</b>."
+        },
+        {
+          "name": "BIG BANG",
+          "description": "When a <b>[Frag Launcher]</b> shot bounces, increase its projectile size by <b>33%</b>."
+        },
+        {
+          "name": "BINGO!",
+          "description": "<b>[Frag Launcher]</b> Direct Hits without bouncing reduce cooldown of abilities by <b>25%</b>."
+        },
+        {
+          "name": "SOOT SHAKER",
+          "description": "After detonating <b>[Concussion Mine]</b>, gain <b>15%</b> increased Attack Speed for <b>1.</b><b>5s</b> and restore <b>20%</b> Max Ammo."
+        },
+        {
+          "name": "IT'S A(NOTHER) TRAP!",
+          "description": "Gain <b>1</b> additional charge of <b>[Steel Trap]</b>."
+        },
+        {
+          "name": "TRAP II, ESQUIRE",
+          "description": "After <b>[Concussion Mine]</b> has landed for <b>0.</b><b>5s</b>, detonating it will spawn a mini <b>[Steel Trap]</b> that slows instead of immobilizing."
+        },
+        {
+          "name": "HOP BOOM",
+          "description": "After launching yourself with <b>[Concussion Mine]</b>, detonate a <b>[Concussion Mine]</b> wherever you land with <b>50%</b> <b>reduced</b> effectiveness."
+        },
+        {
+          "name": "SLAPNEL",
+          "description": "<b>[Quick Melee]</b> hits explode for up to <b>100%</b> <b>[Quick Melee]</b> damage, knocking you and targets back <b>(<b>10s</b> Cooldown).</b>"
+        },
+        {
+          "name": "GACHABOMB",
+          "description": "<b>+</b><b>20%</b> <b>[Total Mayhem]</b> Explosion Radius.\n<b>[Total Mayhem]</b> creates a random number of additional bombs."
+        },
+        {
+          "name": "RAININ' LEAD",
+          "description": "After launching yourself, drop <b>1</b> <b>[Total Mayhem]</b> bomb with <b>25%</b> reduced damage every <b>0.</b><b>4s</b> while airborne."
+        },
+        {
+          "name": "RIP ROLL",
+          "description": "<b>20%</b> Ultimate Cost Reduction.\nDuring your ultimate, enter your <b>[Rip Tire]</b>. Launch out when it is destroyed or triggered."
+        }
+      ],
+      "Zenyatta": [
+        {
+          "name": "FLYING KICK",
+          "description": "While airborne, <b>[Quick Melee]</b> becomes a dash kick that stuns if it knocks an enemy back into a wall.\n<b>(<b>5s</b> Cooldown)</b>"
+        },
+        {
+          "name": "IT'S ORBIN' TIME",
+          "description": "<b>[Orb of Destruction]</b>'s secondary fire can charge up to <b>3</b> additional orbs."
+        },
+        {
+          "name": "SEEKING SALVATION",
+          "description": "<b>[Orb of Destruction]</b>'s secondary fire projectiles home when aimed at a target below <b>35%</b> Life."
+        },
+        {
+          "name": "DUAL HARMONY",
+          "description": "Gain a <b>2nd</b> <b>[Harmony Orb]</b> but they both heal <b>45%</b> less."
+        },
+        {
+          "name": "ENLIGHTENMENT",
+          "description": "Allies affected by <b>[Harmony Orb]</b> are healed for <b>35%</b> of the damage you deal."
+        },
+        {
+          "name": "GOTTA HAVE FAITH",
+          "description": "<b>[Harmony Orb]</b> targets can be out of your line of sight for <b>5s</b> longer before <b>[Harmony Orb]</b> returns to you."
+        },
+        {
+          "name": "INNER PEACE",
+          "description": "Gain a <b>[Harmony Orb]</b> that is always attached to you. It heals for <b>75%</b> <b>less</b>."
+        },
+        {
+          "name": "DISCORD FEVER",
+          "description": "When <b>[Discord Orb]</b> is applied to a target, they take <b class=\"stat-ap\">50</b> damage over <b>5s</b>."
+        },
+        {
+          "name": "DISCORD INFERNO",
+          "description": "When you critically hit a target affected by your <b>[Discord Orb]</b>, the <b>[Orb of Destruction]</b> explodes, dealing <b class=\"stat-ap\">50</b> damage."
+        },
+        {
+          "name": "INSTANT KARMA",
+          "description": "When a target of your <b>[Discord Orb]</b> damages you, restore <b>30%</b> of that damage over <b>2s</b>."
+        },
+        {
+          "name": "CIRCLE OF STRIFE",
+          "description": "While using <b>[Transcendence]</b>, apply <b>[Discord Orb]</b> to all enemies within range."
+        },
+        {
+          "name": "SOUL CONTROL",
+          "description": "<b>[Transcendence]</b> can be canceled early, saving up to <b>65%</b> of your Ultimate Charge."
         }
       ]
     }

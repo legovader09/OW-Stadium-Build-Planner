@@ -101,8 +101,8 @@
             </div>
             <br />
             <div>
-                <label for="heroSrc">Image Source:</label>
-                <input type="text" id="heroSrc" placeholder="Enter image URL or path">
+                <label for="heroSafeName">Safe name:</label>
+                <input type="text" id="heroSafeName" placeholder="Enter safe name without special characters">
             </div>
 
             <div style="margin-top: 20px;">
@@ -287,7 +287,7 @@
         function editHero(index) {
             const hero = heroes.heroes[index];
             document.getElementById('heroName').value = hero.name;
-            document.getElementById('heroSrc').value = hero.src || '';
+            document.getElementById('heroSafeName').value = hero.src || '';
             document.getElementById('heroType').value = hero.type || 'Unknown';
             
             // Set base stats
@@ -370,10 +370,12 @@
 
         document.getElementById('heroForm').addEventListener('submit', function(e) {
             e.preventDefault();
+            const heroName = document.getElementById('heroName').value;
+            const safeName = document.getElementById('heroSafeName').value;
 
             const hero = {
-                name: document.getElementById('heroName').value,
-                src: document.getElementById('heroSrc').value,
+                name: heroName,
+                safe_name: safeName ? safeName : heroName,
                 type: document.getElementById('heroType').value,
                 base_stats: [
                     { type: "Health", value: parseInt(document.getElementById('health').value) },

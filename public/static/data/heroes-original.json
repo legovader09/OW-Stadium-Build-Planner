@@ -1230,6 +1230,201 @@
         }
       ],
       "abilities": []
+    },
+    {
+      "name": "Sigma",
+      "type": "tank",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 350
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 275
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Weapon Power",
+          "value": "0%"
+        },
+        {
+          "type": "Ability Power",
+          "value": "0%"
+        },
+        {
+          "type": "Attack Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Cooldown Reduction",
+          "value": "0%"
+        },
+        {
+          "type": "Max Ammo",
+          "value": "0%"
+        },
+        {
+          "type": "Weapon Lifesteal",
+          "value": "0%"
+        },
+        {
+          "type": "Ability Lifesteal",
+          "value": "0%"
+        },
+        {
+          "type": "Movement Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Reload Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Melee Damage",
+          "value": "0%"
+        },
+        {
+          "type": "Critical Damage",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Junkrat",
+      "type": "dps",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 250
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Weapon Power",
+          "value": "0%"
+        },
+        {
+          "type": "Ability Power",
+          "value": "0%"
+        },
+        {
+          "type": "Attack Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Cooldown Reduction",
+          "value": "0%"
+        },
+        {
+          "type": "Max Ammo",
+          "value": "0%"
+        },
+        {
+          "type": "Weapon Lifesteal",
+          "value": "0%"
+        },
+        {
+          "type": "Ability Lifesteal",
+          "value": "0%"
+        },
+        {
+          "type": "Movement Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Reload Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Melee Damage",
+          "value": "0%"
+        },
+        {
+          "type": "Critical Damage",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Zenyatta",
+      "type": "support",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 75
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 175
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Weapon Power",
+          "value": "0%"
+        },
+        {
+          "type": "Ability Power",
+          "value": "0%"
+        },
+        {
+          "type": "Attack Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Cooldown Reduction",
+          "value": "0%"
+        },
+        {
+          "type": "Max Ammo",
+          "value": "0%"
+        },
+        {
+          "type": "Weapon Lifesteal",
+          "value": "0%"
+        },
+        {
+          "type": "Ability Lifesteal",
+          "value": "0%"
+        },
+        {
+          "type": "Movement Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Reload Speed",
+          "value": "0%"
+        },
+        {
+          "type": "Melee Damage",
+          "value": "0%"
+        },
+        {
+          "type": "Critical Damage",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
     }
   ]
 }

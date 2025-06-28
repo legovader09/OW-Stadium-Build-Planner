@@ -211,6 +211,12 @@ const App = () => {
             <p className="mt-0 mb-3">
               Select your heroes, items, and powers, to create your perfect 7-round build! Share your builds easily and hassle-free with the share buttons below, or by copying the link in your browser.
             </p>
+            <p style={{
+              background: '#cc9d3f', padding: '10px', borderRadius: '5px', color: 'black',
+            }}
+            >
+              <b>Sigma</b>, <b>Junkrat</b>, and <b>Zenyatta</b> are currently in the process of being added.
+            </p>
           </section>
           <section className="row build-section--btn-wrapper">
             <ShareBuild character={data.character} buildName={data.buildName} />

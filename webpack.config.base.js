@@ -63,7 +63,23 @@ module.exports = {
             },
           },
           {
-            loader: 'sass-loader', // turns SASS into CSS
+            loader: 'sass-loader',
+            options: {
+              api: 'modern',
+              sassOptions: {
+                silenceDeprecations: ['import', 'color-functions'],
+                fiber: false,
+                quietDeps: true,
+                logger: {
+                  warn(message) {
+                    return null; // Silence warning messages
+                  },
+                  debug(message) {
+                    return null; // Silence debug messages
+                  },
+                },
+              },
+            },
           },
         ],
       },
