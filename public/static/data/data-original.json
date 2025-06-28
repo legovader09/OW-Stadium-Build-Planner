@@ -657,6 +657,24 @@
           ],
           "cost": 4500,
           "character": "Junkrat"
+        },
+        {
+          "name": "EMERGENCY CHIP",
+          "attributes": [
+            {
+              "type": "Shield",
+              "value": "25"
+            },
+            {
+              "type": "WP",
+              "value": "5%"
+            },
+            {
+              "type": "description",
+              "value": "While you are below <b>150</b> Life, gain <b>15%</b> Weapon Lifesteal."
+            }
+          ],
+          "cost": 4500
         }
       ],
       "epic": [
@@ -691,7 +709,7 @@
               "value": "Dealing Weapon Damage to Barriers has a <b>50%</b> chance to restore <b>1</b> ammo."
             }
           ],
-          "cost": 9500,
+          "cost": 9000,
           "id": "i_37"
         },
         {
@@ -965,7 +983,7 @@
               "value": "<b>[Particle Cannon]</b>'s primary fire range is increased by <b>20%</b>"
             }
           ],
-          "cost": 11000,
+          "cost": 12000,
           "character": "Zarya",
           "id": "i_53"
         },
@@ -1029,7 +1047,7 @@
               "value": "<b>[Quick Melee]</b> can critically hit when striking enemies from behind, dealing <b>50%</b> increased damage."
             }
           ],
-          "cost": 10000,
+          "cost": 11000,
           "character": "Genji",
           "id": "i_57"
         },
@@ -1106,7 +1124,7 @@
           "attributes": [
             {
               "type": "AS",
-              "value": "10%"
+              "value": "15%"
             },
             {
               "type": "description",
@@ -1426,6 +1444,24 @@
           ],
           "cost": 11000,
           "character": "Zenyatta"
+        },
+        {
+          "name": "AERIAL DISTRESSER",
+          "attributes": [
+            {
+              "type": "Shield",
+              "value": "25"
+            },
+            {
+              "type": "AS",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "Weapon dealing damage to airborne enemies deal <b>25%</b> bonus damage over <b>3s</b>."
+            }
+          ],
+          "cost": 10000
         }
       ]
     },
@@ -1509,7 +1545,7 @@
             },
             {
               "type": "description",
-              "value": "When you spend your Ultimate Charge, grant nearby allies <b>50 Overhealth</b> for <b>3s</b>."
+              "value": "When you spend your Ultimate Charge, grant nearby allies <b>75 Overhealth</b> for <b>3s</b>."
             }
           ],
           "cost": 4000,
@@ -1591,7 +1627,7 @@
             },
             {
               "type": "description",
-              "value": "If your <b>[Mech]</b> detonates while mid-air, increase <b>[Self-Destruct]</b> explosion damage and range by <b>200%</b>."
+              "value": "If your <b>[Mech]</b> detonates while mid-air, increase <b>[Self-Destruct]</b> explosion damage and range by <b>100%</b>."
             }
           ],
           "cost": 4000,
@@ -1646,6 +1682,10 @@
           "name": "ARCFINDER",
           "attributes": [
             {
+              "type": "CR",
+              "value": "5%"
+            },
+            {
               "type": "description",
               "value": "<b>[Energy Javelin]</b> deals <b>25%</b> increased damage to enemies farther than <b>12m</b> away."
             }
@@ -1685,22 +1725,6 @@
           "cost": 4000,
           "character": "Reinhardt",
           "id": "i_92"
-        },
-        {
-          "name": "CHIMERA'S MAW",
-          "attributes": [
-            {
-              "type": "AP",
-              "value": "5%"
-            },
-            {
-              "type": "[Fire Strike] Radius",
-              "value": "50%"
-            }
-          ],
-          "cost": 4000,
-          "character": "Reinhardt",
-          "id": "i_93"
         },
         {
           "name": "BEYOND BARRIER",
@@ -1863,28 +1887,12 @@
             },
             {
               "type": "description",
-              "value": "Landing a <b>[Sleep Dart]</b> on target affected by <b>[Biotic Grenade]</b> reduces its cooldown by <b>35%</b>."
+              "value": "Landing a <b>[Sleep Dart]</b> on enemies reduces its cooldown by <b>35%</b>. Does not stack."
             }
           ],
           "cost": 4000,
           "character": "Ana",
           "id": "i_103"
-        },
-        {
-          "name": "LOCK-ON SHIELD",
-          "attributes": [
-            {
-              "type": "AP",
-              "value": "10%"
-            },
-            {
-              "type": "description",
-              "value": "While aiming <b>[Pulsar Torpedoes]</b>, gain Overhealth equal to <b>50%</b> of your max Shields."
-            }
-          ],
-          "cost": 4000,
-          "character": "Juno",
-          "id": "i_104"
         },
         {
           "name": "LUX LOOP",
@@ -2165,6 +2173,58 @@
           ],
           "cost": 4000,
           "character": "Zenyatta"
+        },
+        {
+          "name": "VITALITY AMPLIFIER",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "25"
+            },
+            {
+              "type": "ALS",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "While you are above <b>80%</b> Life, gain <b>10%</b> Ability Power."
+            }
+          ],
+          "cost": 4500
+        },
+        {
+          "name": "NIGHTCREEPER",
+          "attributes": [
+            {
+              "type": "WP",
+              "value": "5%"
+            },
+            {
+              "type": "MS",
+              "value": "5%"
+            },
+            {
+              "type": "description",
+              "value": "After using an ability, nearby enemies are <b>Revealed</b> to you for <b>3s</b>."
+            }
+          ],
+          "cost": 3750,
+          "character": "Reaper"
+        },
+        {
+          "name": "CROWD CONTROL",
+          "attributes": [
+            {
+              "type": "ALS",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "<b>[Death Blossom]</b> gains <b>4%</b> Ability Power for each enemy within its range."
+            }
+          ],
+          "cost": 4000,
+          "character": "Reaper"
         }
       ],
       "epic": [
@@ -2495,22 +2555,6 @@
           "id": "i_132"
         },
         {
-          "name": "ROCKET STRIKE",
-          "attributes": [
-            {
-              "type": "AP",
-              "value": "10%"
-            },
-            {
-              "type": "Fire Strike Projectile Speed",
-              "value": "25%"
-            }
-          ],
-          "cost": 10000,
-          "character": "Reinhardt",
-          "id": "i_133"
-        },
-        {
           "name": "SUPERCONDUCTOR",
           "attributes": [
             {
@@ -2522,8 +2566,8 @@
               "value": "15%"
             },
             {
-              "type": "[Barrier] Duration",
-              "value": "40%"
+              "type": "description",
+              "value": "After <b>[Particle Barrier]</b> is destroyed or expires, gain decaying <b>Overhealth</b> equal to <b>50%</b> of damage mitigated during <b>[Particle Barrier]</b>."
             }
           ],
           "cost": 10000,
@@ -2539,7 +2583,7 @@
             },
             {
               "type": "description",
-              "value": "Casting <b>[Projected Barrier]</b> on an ally refunds <b>20%</b> of <b>[Barrier]</b> Cooldown"
+              "value": "Restore Life equal to <b>30%</b> of damage mitigated by <b>[Projected Barrier]</b>."
             }
           ],
           "cost": 10000,
@@ -2619,7 +2663,7 @@
           "attributes": [
             {
               "type": "AP",
-              "value": "10%"
+              "value": "15%"
             },
             {
               "type": "ALS",
@@ -2695,26 +2739,6 @@
           "id": "i_144"
         },
         {
-          "name": "NIGHTCREEPER",
-          "attributes": [
-            {
-              "type": "MS",
-              "value": "10%"
-            },
-            {
-              "type": "[Shadow Step] Cast Speed",
-              "value": "30%"
-            },
-            {
-              "type": "description",
-              "value": "Using <b>[Wraith Form]</b> reduces the cooldown of <b>[Shadow Step]</b> by <b>2s</b>."
-            }
-          ],
-          "cost": 9500,
-          "character": "Reaper",
-          "id": "i_145"
-        },
-        {
           "name": "WREATH OF RUIN",
           "attributes": [
             {
@@ -2733,22 +2757,6 @@
           "cost": 10000,
           "character": "Reaper",
           "id": "i_146"
-        },
-        {
-          "name": "CROWD CONTROL",
-          "attributes": [
-            {
-              "type": "AP",
-              "value": "15%"
-            },
-            {
-              "type": "description",
-              "value": "<b>[Death Blossom]</b> gains <b>5%</b> Ability Power for each enemy within its range."
-            }
-          ],
-          "cost": 11000,
-          "character": "Reaper",
-          "id": "i_147"
         },
         {
           "name": "ENDGAME EQUALIZER",
@@ -3197,6 +3205,63 @@
           ],
           "cost": 11000,
           "character": "Zenyatta"
+        },
+        {
+          "name": "CHIMERA'S MAW",
+          "attributes": [
+            {
+              "type": "[Fire Strike] Projectile Speed",
+              "value": "25%"
+            },
+            {
+              "type": "[Fire Strike] Radius",
+              "value": "50%"
+            },
+            {
+              "type": "description",
+              "value": "For each additional enemy <b>[Fire Strike]</b> damages beyond the initial target, reduce <b>[Fire Strike]</b> cooldown by <b>5%</b>"
+            }
+          ],
+          "cost": 10000,
+          "character": "Reinhardt"
+        },
+        {
+          "name": "CRIMSON CLOAK",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "When <b>[Death Blossom]</b> starts, gain <b>Overhealth</b> equal to <b>5%</b> of your max Life for each enemy within its range."
+            }
+          ],
+          "cost": 9500,
+          "character": "Reaper"
+        },
+        {
+          "name": "SONIC RECHARGE",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "AP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "Passive Life Regeneration can overheal up to <b>75</b>."
+            }
+          ],
+          "cost": 9500,
+          "id": "i_114"
         }
       ]
     },
@@ -3225,7 +3290,7 @@
               "value": "At the start of the round and every time you respawn, gain 100 unrecoverable <b>Overhealth</b>."
             }
           ],
-          "cost": 1500,
+          "cost": 1000,
           "id": "i_167"
         },
         {
@@ -3339,7 +3404,7 @@
               "value": "When affected by <b>Stun</b>, <b>Sleep</b> , or <b>Hinder</b>, restore <b>10%</b> of your max Life over <b>3s</b>."
             }
           ],
-          "cost": 4000,
+          "cost": 3750,
           "id": "i_175"
         },
         {
@@ -3414,7 +3479,7 @@
               "value": "You take <b>20%</b> reduced damage from Critical Hits."
             }
           ],
-          "cost": 4500,
+          "cost": 4000,
           "id": "i_180"
         },
         {
@@ -3555,6 +3620,10 @@
         {
           "name": "SIPHONIC SPEAR",
           "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
             {
               "type": "description",
               "value": "When you deal damage with <b>[Energy Javelin]</b>, heal <b>10%</b> of your max Life over <b>3s</b>."
@@ -3701,7 +3770,7 @@
             },
             {
               "type": "description",
-              "value": "After using <b>[Coach Gun]</b>, gain <b>20%</b> Move Speed for <b>3s</b>."
+              "value": "After using <b>[Coach Gun]</b>, gain <b>20%</b> Move Speed for <b>5s</b> and reload <b>25%</b> of max ammo."
             }
           ],
           "cost": 4000,
@@ -3812,15 +3881,15 @@
           "name": "DEVASTATION",
           "attributes": [
             {
-              "type": "ALS",
-              "value": "15%"
+              "type": "Health",
+              "value": "25"
             },
             {
               "type": "description",
-              "value": "Each <b>[Death Blossom]</b> elimination increases your Health by <b>25</b> until the end of the round, up to <b>100</b> Health."
+              "value": "Each <b>[Death Blossom]</b> elimination increases your Health by <b>25</b> until the end of the round, up to <b>75</b> Health."
             }
           ],
-          "cost": 4000,
+          "cost": 3750,
           "character": "Reaper",
           "id": "i_204"
         },
@@ -3929,22 +3998,6 @@
           "id": "i_210"
         },
         {
-          "name": "BOOSTED ROCKETS",
-          "attributes": [
-            {
-              "type": "Shields",
-              "value": "25"
-            },
-            {
-              "type": "[Glide Boost] Duration",
-              "value": "25%"
-            }
-          ],
-          "cost": 4000,
-          "character": "Juno",
-          "id": "i_211"
-        },
-        {
           "name": "KITSUNE KICKS",
           "attributes": [
             {
@@ -4051,8 +4104,12 @@
               "value": "25"
             },
             {
+              "type": "WP",
+              "value": "5%"
+            },
+            {
               "type": "description",
-              "value": "Enemies with a Bounty of <b>750</b> or more are revealed to you within 40m. Eliminating them grants <b>250</b> additional <b>Stadium Cash</b>."
+              "value": "Enemies with a Bounty of <b>750</b> or more are revealed to you within <b>40m</b>.\n<br/>\n Eliminating them grants <b>350</b> additional <b>Stadium Cash</b>."
             }
           ],
           "cost": 4000,
@@ -4166,6 +4223,22 @@
           ],
           "cost": 4000,
           "character": "Zenyatta"
+        },
+        {
+          "name": "LOCK-ON SHIELD",
+          "attributes": [
+            {
+              "type": "Health",
+              "value": "25"
+            },
+            {
+              "type": "description",
+              "value": "While aiming <b>[Pulsar Torpedoes]</b>, gain <b>Overhealth</b> equal to <b>25%</b> of your max Shields."
+            }
+          ],
+          "cost": 4000,
+          "character": "Juno",
+          "id": "i_104"
         }
       ],
       "epic": [
@@ -4208,7 +4281,7 @@
             },
             {
               "type": "description",
-              "value": "When you take more than <b>100</b> damage at once, restore <b>15%</b> of damage taken and start regenerating your Shields."
+              "value": "When you take more than <b>100</b> damage at once, restore <b>20%</b> of damage taken and start regenerating your Shields."
             }
           ],
           "cost": 9500,
@@ -4400,15 +4473,15 @@
           "id": "i_229"
         },
         {
-          "name": "NANO COLA NITROUS",
+          "name": "NANO COLA™ NITROUS",
           "attributes": [
             {
               "type": "Health",
-              "value": "25"
+              "value": "50"
             },
             {
               "type": "description",
-              "value": "When you eject from your <b>[Mech]</b>, gain <b>5%</b> increased max Health and gain <b>[Nano Boost]</b> for <b>4s</b>."
+              "value": "When you eject from your <b>[Mech]</b>, gain <b>[Nano Boost]</b> for <b>4s</b>."
             }
           ],
           "cost": 11000,
@@ -4488,18 +4561,18 @@
           "id": "i_234"
         },
         {
-          "name": "INFUSION GENERATOR",
+          "name": "WILHELMWAGEN",
           "attributes": [
             {
-              "type": "Health",
-              "value": "25"
+              "type": "Armor",
+              "value": "50"
             },
             {
               "type": "description",
-              "value": "Increase <b>[Barrier Field]</b> Health by <b>100%</b> of your max Life."
+              "value": "While <b>[Barrier Field]</b> is deployed, you gain <b>30%</b> Move Speed."
             }
           ],
-          "cost": 10000,
+          "cost": 11000,
           "character": "Reinhardt",
           "id": "i_235"
         },
@@ -4674,26 +4747,6 @@
           "cost": 10000,
           "character": "Reaper",
           "id": "i_245"
-        },
-        {
-          "name": "CRIMSON CLOAK",
-          "attributes": [
-            {
-              "type": "Health",
-              "value": "25"
-            },
-            {
-              "type": "AP",
-              "value": "10%"
-            },
-            {
-              "type": "description",
-              "value": "Using <b>[Death Blossom]</b> grants you <b>Overhealth</b> equal to <b>15%</b> of your max Life."
-            }
-          ],
-          "cost": 11000,
-          "character": "Reaper",
-          "id": "i_246"
         },
         {
           "name": "IRON LUNG",
@@ -4936,6 +4989,40 @@
           ],
           "cost": 10000,
           "character": "Zenyatta"
+        },
+        {
+          "name": "BOOSTED ROCKETS",
+          "attributes": [
+            {
+              "type": "[Glide Boost] Duration",
+              "value": "25%"
+            },
+            {
+              "type": "description",
+              "value": "During <b>[Glide Boost]</b>, gain <b>10%</b> Damage Reduction."
+            }
+          ],
+          "cost": 12000,
+          "character": "Juno",
+          "id": "i_211"
+        },
+        {
+          "name": "OVERDRIVE CORE",
+          "attributes": [
+            {
+              "type": "Shields",
+              "value": "25"
+            },
+            {
+              "type": "WP",
+              "value": "10%"
+            },
+            {
+              "type": "description",
+              "value": "Once per life, if you take damage that would reduce you below <b>30%</b> Max Life, first gain <b>300 decaying Overhealth</b>."
+            }
+          ],
+          "cost": 10000
         }
       ]
     },
@@ -4978,7 +5065,7 @@
         },
         {
           "name": "MEKA PUNCH",
-          "description": "While using <b>[Boosters]</b>, <b>[Quick Melee]</b> deals <b>75%</b> more damage. MEKA Punch eliminations reset the cooldown of <b>[Boosters]</b>.",
+          "description": "While using <b>[Boosters]</b>, <b>[Quick Melee]</b> deals <b>50%</b> more damage. MEKA Punch and booster eliminations reset the cooldown of <b>[Boosters]</b>.",
           "id": "p_7"
         },
         {
@@ -5025,12 +5112,12 @@
         },
         {
           "name": "CUT 'EM, GRACIE!",
-          "description": "Each enemy hit by <b>[Jagged Blade]</b> while it returns to you reduces its cooldown by 1s.",
+          "description": "Each enemy hit by <b>[Jagged Blade]</b> while it returns to you reduces its cooldown by <b>2s</b>.",
           "id": "p_16"
         },
         {
           "name": "LET'S GO WIN",
-          "description": "Eliminations reset the cooldown of <b>[Commanding Shout]</b>.",
+          "description": "Eliminations reset the cooldown of <b>[Commanding Shout]</b> by <b>50%</b>.",
           "id": "p_17"
         },
         {
@@ -5139,12 +5226,12 @@
         },
         {
           "name": "TO ME, MY FRIENDS!",
-          "description": "While <b>[Barrier Field]</b> is active, allies within <b>5m</b> are healed equal to <b>4%</b> of your max Life every <b>1s</b>.",
+          "description": "While <b>[Barrier Field]</b> is active, allies within <b>5m</b> are healed equal to <b>5%</b> of your max Life every <b>1s</b>.",
           "id": "p_38"
         },
         {
-          "name": "WILHELMWAGEN",
-          "description": "While <b>[Barrier Field]</b> is deployed, you heal for <b>5%</b> of the damage it mitigates and gain <b>30%</b> Move Speed.",
+          "name": "INFUSION GENERATOR",
+          "description": "Increase <b>[Barrier Field]</b> Health by <b>250%</b> of your Bonus Max Life.",
           "id": "p_39"
         },
         {
@@ -5169,12 +5256,12 @@
         },
         {
           "name": "IMPACT BURST",
-          "description": "<b>[Fire Strike]</b> triggers an explosion the first time it hits an enemy, dealing <b>15%</b> of its damage in a <b>3m</b> radius.",
+          "description": "<b>[Fire Strike]</b> triggers an explosion the first time it hits an enemy, dealing <b>30%</b> of its damage in a <b>3m</b> radius.",
           "id": "p_44"
         },
         {
           "name": "MAGMA STRIKE",
-          "description": "If <b>[Fire Strike]</b> is cast twice within <b>2s</b>, the second strike leaves a trail of lava that Burns enemies for <b>50%</b> of <b>[Fire Strike]</b> damage.",
+          "description": "Every second <b>[Fire Strike]</b> leaves a trail of lava that <b>Burns</b> enemies for <b>50%</b> of <b>[Fire Strike]</b> damage.",
           "id": "p_45"
         },
         {
@@ -5191,7 +5278,7 @@
       "Zarya": [
         {
           "name": "NO LIMITS",
-          "description": "Maximum <b>[Energy]</b> increased to <b>150</b>. <b>[Energy]</b> always decays above <b>100</b> <b>[Energy]</b> at a <b>150%</b> faster rate.",
+          "description": "Maximum <b>[Energy]</b> increased to <b>125</b>. <b>[Energy]</b> always decays above <b>100</b> <b>[Energy]</b> at a <b>150%</b> faster rate.",
           "id": "p_48"
         },
         {
@@ -5211,17 +5298,17 @@
         },
         {
           "name": "BARRIER BENEFITS",
-          "description": "When <b>[Barriers]</b> expire, grant <b>Overhealth</b> equal to <b>50%</b> of remaining Barrier Health to the target for <b>3s</b>",
+          "description": "When <b>[Barriers]</b> expire, grant <b>Overhealth</b> equal to <b>100%</b> of remaining Barrier Health to the target for <b>2s</b>",
           "id": "p_52"
         },
         {
           "name": "CONTAINMENT SHIELD",
-          "description": "<b>[Barrier]</b> heals <b class=\"stat-ap\">25</b> Life, increased by <b>[Energy]</b>, and grants <b>20%</b> Move Speed while active.",
+          "description": "<b>[Barrier]</b> heals the target for <b>5%</b> of your Max Life every <b>1s</b> and grants <b>20%</b> Move Speed while active.",
           "id": "p_53"
         },
         {
           "name": "FISSION FIELD",
-          "description": "<b>[Projected Barrier]</b> also applies to <b>1</b> additional ally within <b>10m</b>, but has <b>20%</b> reduced duration.",
+          "description": "<b>[Projected Barrier]</b> also applies to <b>1</b> additional ally within <b>10m</b>, but has <b>25% reduced</b> maximum <b>[Energy]</b> gain and <b>20% reduced</b> duration.",
           "id": "p_54"
         },
         {
@@ -5231,7 +5318,7 @@
         },
         {
           "name": "LIFELIFT",
-          "description": "<b>+</b><b>50%</b> <b>[Particle Barrier]</b> Size.\n<br/>\nIncrease <b>[Particle Barrier]</b> Health by <b>25%</b> of Bonus Max Life.",
+          "description": "<b>+50%</b> <b>[Particle Barrier]</b> Size.\n<br/>\nIncrease <b>[Barrier]</b> Health by <b>50%</b> of Bonus Max Life from Items.",
           "id": "p_56"
         },
         {
@@ -5241,7 +5328,7 @@
         },
         {
           "name": "VOLSKAYA VORTEX",
-          "description": "After a <b>[Barrier]</b> is cast, <b>[Particle Cannon]</b>'s next secondary fire spawns a slowing vortex that deals <b class=\"stat-ap\">100</b> damage over <b>2s</b>.",
+          "description": "After a <b>[Barrier]</b> is cast, <b>[Particle Cannon]</b>'s next secondary fire spawns a slowing vortex that deals <b class=\"stat-ap\">80</b> damage over <b>2s</b>.",
           "id": "p_58"
         },
         {
@@ -5320,7 +5407,7 @@
         },
         {
           "name": "DEAD MAN WALKING",
-          "description": "Eliminating an enemy you've recently critically hit grants <b>1</b> Max Ammo for the round.",
+          "description": "Eliminating an enemy with a critical hit grants <b>1</b> Max Ammo for the round, up to <b>4</b>.",
           "id": "p_73"
         },
         {
@@ -5345,7 +5432,7 @@
         },
         {
           "name": "JUST ROLL WITH IT",
-          "description": "During <b>[Combat Roll]</b>, prevent all incoming damage.\nAfter <b>[Combat Roll]</b> ends, heal <b>30%</b> of your Life over <b>3s</b>.",
+          "description": "<b>[Combat Roll]</b> gains additional <b>25%</b> damage reduction and heals <b>30%</b> of your Life over <b>3s</b>.",
           "id": "p_78"
         },
         {
@@ -5397,12 +5484,12 @@
         },
         {
           "name": "HIDDEN BLADE",
-          "description": "Gain <b>50%</b> Melee Lifesteal and increase <b>[Quick Melee]</b> damage by 25.",
+          "description": "Gain <b>60%</b> Melee Lifesteal and increase <b>[Quick Melee]</b> damage by <b>15</b>.",
           "id": "p_88"
         },
         {
           "name": "LACERATION",
-          "description": "<b>[Swift Strike]</b> deals <b>25%</b> additional damage over <b>3s</b> to enemies hit.",
+          "description": "<b>[Swift Strike]</b> deals <b>35%</b> additional damage over <b>3s</b> to enemies hit.",
           "id": "p_89"
         },
         {
@@ -5449,7 +5536,7 @@
         },
         {
           "name": "PERMAFROST",
-          "description": "Increase your max health by <b>50%</b> of your ability power.",
+          "description": "Gain bonus health multiplier equal to <b>50%</b> of your ability power. While above <b>30%</b> ability power, grow <b>15%</b> in size.",
           "id": "p_97"
         },
         {
@@ -5488,8 +5575,8 @@
           "id": "p_104"
         },
         {
-          "name": "AVALANCHE",
-          "description": "Visible enemies within <b>20m</b> of <b>[Blizzard]</b> are slowed by <b>25%</b>.",
+          "name": "COLD BLASTER",
+          "description": "<b>[Endothermic Blaster]</b>'s primary fire does <b>20%</b> increased damage to enemies within <b>[Blizzard]</b>.",
           "id": "p_105"
         },
         {
@@ -5546,7 +5633,7 @@
         },
         {
           "name": "STRANGLE STEP",
-          "description": "After using <b>[Shadow Step]</b>, <b>double</b> your Lifesteal for <b>3s</b>.",
+          "description": "<b>+30% [Shadow Step]</b> Cast Speed.\n<br/>\nAfter using <b>[Shadow Step]</b>, <b>double</b> your Lifesteal for <b>3s</b>.",
           "id": "p_116"
         },
         {
@@ -5556,7 +5643,7 @@
         },
         {
           "name": "WRAITH RENEWAL",
-          "description": "While in <b>[Wraith Form]</b>, restore <b>10%</b> of your Life every Is. Double this while below <b>50%</b> Life.",
+          "description": "While in <b>[Wraith Form]</b>, restore <b>7%</b> of your Life every <b>1s</b>. Double this while below <b>50%</b> Life.",
           "id": "p_118"
         }
       ],
@@ -5608,7 +5695,7 @@
         },
         {
           "name": "FRONTLINERS",
-          "description": "Allies in range of your <b>[Biotic Field]</b> when it spawns gain <b>Overhealth</b> equal to <b>30%</b> of your max Life for <b>3s</b>.",
+          "description": "Allies in range of your <b>[Biotic Field]</b> when it spawns gain <b>Overhealth</b> equal to <b>25%</b> of your max Life for <b>3s</b>.",
           "id": "p_128"
         },
         {
@@ -5702,7 +5789,7 @@
         },
         {
           "name": "MEDICINAL MISSILES",
-          "description": "<b>[Pulsar Torpedoes]</b> heal for an extra <b class=\"stat-ap\">30</b> life and causes allies hit to receive <b>50%</b> more healing for <b>3s</b>.",
+          "description": "<b>[Pulsar Torpedoes]</b> causes allies hit to receive <b>50%</b> more healing for <b>3s</b>.",
           "id": "p_146"
         },
         {
@@ -5759,7 +5846,7 @@
         },
         {
           "name": "TRIPLE THREAT",
-          "description": "After using <b>[Swift Step]</b>, for <b>4s</b>, your secondary fire throws <b>2</b> additional <b>[Kunai]</b> in a spread that deal <b>50%</b> less damage.",
+          "description": "After using <b>[Swift Step]</b>, for <b>4s</b>, your secondary fire throws <b>2</b> additional <b>[Kunai]</b> in a spread that deal <b>50% less</b> damage.",
           "id": "p_157"
         },
         {
@@ -5769,7 +5856,7 @@
         },
         {
           "name": "SELF-CARE",
-          "description": "When you use <b>[Healing Ofuda]</b>, heal yourself for <b>15%</b> of your max Life.",
+          "description": "When you use <b>[Healing Ofuda]</b>, each Ofuda thrown heals you for <b>15%</b> of your max Life.",
           "id": "p_159"
         },
         {
@@ -5821,7 +5908,7 @@
         },
         {
           "name": "SONIC BOOM",
-          "description": "<b>[Sonic Amplifier]</b> Damage heals all allies affected by <b>[Crossfade]</b> equal to <b>30%</b> of damage dealt.",
+          "description": "<b>[Sonic Amplifier]</b> and <b>[Quick Melee]</b> Damage heals all allies affected by <b>[Crossfade]</b> equal to <b>30%</b> of damage dealt.",
           "id": "p_169"
         },
         {
@@ -5841,7 +5928,7 @@
         },
         {
           "name": "VIVACE",
-          "description": "While <b>[Wallriding]</b> or airborne, <b>[Soundwave]</b> cooldown refreshes <b>25%</b> faster and adds <b>1</b> Max Ammo per <b>1s</b> until you reload.",
+          "description": "Every <b>1s</b> you are <b>[Wallriding]</b>, gain <b>3%</b> Move Speed and <b>1.5%</b> Attack Speed for <b>5s</b>, stacking up to <b>10</b> times.",
           "id": "p_173"
         },
         {
@@ -5851,7 +5938,7 @@
         },
         {
           "name": "CROWD PLEASER",
-          "description": "After using <b>[Soundwave]</b>, heal all allies affected by <b>[Crossfade]</b> for <b>100%</b> of <b>[Crossfade]</b> healing.",
+          "description": "After using <b>[Soundwave]</b>, heal all allies affected by <b>[Crossfade]</b> for <b class=\"ap\">20</b>.This healing is doubled while <b>[Amp It Up]</b> is active.",
           "id": "p_175"
         },
         {
@@ -6033,7 +6120,7 @@
         },
         {
           "name": "LILLE FÆLDE",
-          "description": "After using <b>[Updraft]</b>, your next <b>[Take Aim]</b> while airborne fires a <b>[Bola Shot]</b> that deals <b>60%</b> <b>reduced</b> damage instead of an explosive bolt."
+          "description": "After using <b>[Updraft]</b>, your next <b>[Take Aim]</b> while airborne instead fires a <b>[Bola Shot]</b> that no longer pulls and has <b>50% reduced</b> effectiveness."
         },
         {
           "name": "SO COOKED",
