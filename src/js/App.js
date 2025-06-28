@@ -215,7 +215,7 @@ const App = () => {
               background: '#cc9d3f', padding: '10px', borderRadius: '5px', color: 'black',
             }}
             >
-              <b>Sigma</b>, <b>Junkrat</b>, and <b>Zenyatta</b> are currently in the process of being added.
+              <b>Season 17 Changes</b> & <b>Sigma</b>, <b>Junkrat</b>, and <b>Zenyatta</b> are currently in the process of being added.
             </p>
           </section>
           <section className="row build-section--btn-wrapper">
