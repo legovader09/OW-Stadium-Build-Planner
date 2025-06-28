@@ -5866,7 +5866,7 @@
         },
         {
           "name": "CLONE CONJURATION",
-          "description": "After using <b>[Swift Step]</b>, create a clone of yourself that lasts for <b>5s</b>.",
+          "description": "After using <b>[Swift Step]</b>, create a clone of yourself that lasts for <b>2.5s</b>.",
           "id": "p_161"
         },
         {
