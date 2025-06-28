@@ -32,7 +32,7 @@ const Changelog = () => {
             <p className="changelog-date">28th June 2025</p>
             <ul className="changelog-list">
               <li>Added Sigma, Junkrat, and Zenyatta items and powers (still need to add item and hero images)</li>
-              <li>Updated power and item stat changes for existing heroes to match the Patch Notes for Season 17 (pending icons)</li>
+              <li>Updated power and item stat changes for existing heroes to match the Patch Notes for Season 17 (pending icons) + 27th June Hotfix</li>
               <li><b>PLEASE NOTE: A lot of Reaper/Juno/Reinhardt builds may break due to items and/or powers being shifted to different categories.</b></li>
             </ul>
             <p className="changelog-date">1st June 2025</p>
