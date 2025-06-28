@@ -27,52 +27,73 @@ const ItemShop = ({
     setActiveTab(newTab);
   };
 
-  const renderRaritySection = (items, rarity) => (
-    <div key={rarity} className="col-12 col-md-4 rarity-section px-1">
-      <h5 className="rarity-section--title ps-2">
-        {rarity.toUpperCase()}
-      </h5>
-      <div className="container">
-        <div className="row">
-          {items.map((item) => {
-            const { character, items, round } = context;
-            if (item.character && item.character !== character) return null;
-            const currentRoundItems = items[round] || [];
+  const renderRaritySection = (items, rarity) => {
+    const sortedItems = items.sort((a, b) => {
+      if (a.character && !b.character) return 1;
+      if (!a.character && b.character) return -1;
+      return 0;
+    });
 
-            return (
-              <div key={item.name} className={`col-4 buyable-item item-${rarity}`}>
-                <Item
-                  item={item}
-                  src={getIcon(item.name) || ''}
-                  onClick={() => contextCallback(item, 'items', rarity)}
-                  selected={currentRoundItems.find((i) => i.name === item.name)}
-                  isHeroItem={item.character !== undefined}
-                  isHighlighted={highlightedItem === item.name}
-                />
-                <p className="buyable-item--cost"><img className="currency currency--small" src={getIcon('currency')} alt="Currency" /><span>{formatCurrency(item.cost)}</span></p>
-                <div className="tooltip-container bordered bordered-side">
-                  <div className="tooltip-content">
-                    <p className="tooltip-content--title">{item.name}</p>
-                    {item.character && <p className="tooltip-content--subtitle">HERO ITEM</p>}
-                    <hr />
-                    <ul>
-                      {item.attributes.map((attr, index) => (
-                        <li key={`${attr.type}_${index.toString()}`} className={`${attr.type !== 'description' ? 'tooltip-content--attribute' : ''}`}>
-                          <RenderAttributeString getIcon={getIcon} attr={attr} />
-                        </li>
-                      ))}
-                    </ul>
-                    <hr />
-                    <p><img className="currency currency--small" src={getIcon('currency')} alt="Currency" /><span>{formatCurrency(item.cost)}</span></p>
+    return (
+      <div key={rarity} className="col-12 col-md-4 rarity-section px-1">
+        <h5 className="rarity-section--title ps-2">
+          {rarity.toUpperCase()}
+        </h5>
+        <div className="container">
+          <div className="row">
+            {sortedItems.map((item) => {
+              const { character, items, round } = context;
+              if (item.character && item.character !== character) return null;
+              const currentRoundItems = items[round] || [];
+
+              return (
+                <div key={item.name} className={`col-4 buyable-item item-${rarity}`}>
+                  <Item
+                    item={item}
+                    src={getIcon(item.name) || ''}
+                    onClick={() => contextCallback(item, 'items', rarity)}
+                    selected={currentRoundItems.find((i) => i.name === item.name)}
+                    isHeroItem={item.character !== undefined}
+                    isHighlighted={highlightedItem === item.name}
+                  />
+                  <p className="buyable-item--cost"><img
+                    className="currency currency--small"
+                    src={getIcon('currency')}
+                    alt="Currency"
+                  /><span>{formatCurrency(item.cost)}</span>
+                  </p>
+                  <div className="tooltip-container bordered bordered-side">
+                    <div className="tooltip-content">
+                      <p className="tooltip-content--title">{item.name}</p>
+                      {item.character && <p className="tooltip-content--subtitle">HERO ITEM</p>}
+                      <hr />
+                      <ul>
+                        {item.attributes.map((attr, index) => (
+                          <li
+                            key={`${attr.type}_${index.toString()}`}
+                            className={`${attr.type !== 'description' ? 'tooltip-content--attribute' : ''}`}
+                          >
+                            <RenderAttributeString getIcon={getIcon} attr={attr} />
+                          </li>
+                        ))}
+                      </ul>
+                      <hr />
+                      <p><img
+                        className="currency currency--small"
+                        src={getIcon('currency')}
+                        alt="Currency"
+                      /><span>{formatCurrency(item.cost)}</span>
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   const renderPowerSection = (powers, char) => (
     <div key={char} className="col-12 power-section px-1">
