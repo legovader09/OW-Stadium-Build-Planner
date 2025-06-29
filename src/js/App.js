@@ -216,6 +216,8 @@ const App = () => {
             }}
             >
               <b>Season 17 Changes</b> & <b>Sigma</b>, <b>Junkrat</b>, and <b>Zenyatta</b> are currently in the process of being added.
+              <br />
+              <b>NOTICE: SOME Reinhardt, Mei, and Juno may break as their items and powers have had categorical shifts and swaps. Sorry about this.</b>
             </p>
           </section>
           <section className="row build-section--btn-wrapper">
