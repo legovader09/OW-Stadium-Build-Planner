@@ -1234,6 +1234,7 @@
     {
       "name": "Sigma",
       "type": "tank",
+      "safe_name": "sigma",
       "base_stats": [
         {
           "type": "Health",
@@ -1299,6 +1300,7 @@
     {
       "name": "Junkrat",
       "type": "dps",
+      "safe_name": "junkrat",
       "base_stats": [
         {
           "type": "Health",
@@ -1364,6 +1366,7 @@
     {
       "name": "Zenyatta",
       "type": "support",
+      "safe_name": "zenyatta",
       "base_stats": [
         {
           "type": "Health",
