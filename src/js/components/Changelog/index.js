@@ -29,6 +29,10 @@ const Changelog = () => {
               ×
             </button>
             <h3 className="changelog-title">Changelog</h3>
+            <p className="changelog-date">2nd July 2025</p>
+            <ul className="changelog-list">
+              <li>Added missing assets for items and powers in previous patch note</li>
+            </ul>
             <p className="changelog-date">28th June 2025</p>
             <ul className="changelog-list">
               <li>Added Sigma, Junkrat, and Zenyatta items and powers (still need to add item and hero images)</li>
