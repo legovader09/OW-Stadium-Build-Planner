@@ -1461,7 +1461,7 @@
               "value": "Weapon dealing damage to airborne enemies deal <b>25%</b> bonus damage over <b>3s</b>."
             }
           ],
-          "cost": 10000
+          "cost": 9000
         }
       ]
     },
@@ -2244,7 +2244,7 @@
               "value": "After using an ability, your next <b>3</b> instances of Weapon Damage deal additional damage equal to <b>3%</b> of the target's Life."
             }
           ],
-          "cost": 9500,
+          "cost": 10500,
           "id": "i_114"
         },
         {
@@ -3151,7 +3151,7 @@
             },
             {
               "type": "description",
-              "value": "Enemies that trigger <b>[Steel Trap]</b> Burn for <b class=\"stat-ap\">50</b> damage over <b>3s</b>."
+              "value": "Enemies that trigger <b>[Steel Trap]</b> Burn for <b class=\"stat-ap\">75</b> damage over <b>3s</b>."
             }
           ],
           "cost": 10000,
@@ -5075,7 +5075,7 @@
         },
         {
           "name": "TOKKI SLAM",
-          "description": "During <b>[Boosters]</b>, use crouch to slam the ground, dealing damage equal to <b>20%</b> of your max Armor and knocking up enemies hit.",
+          "description": "During <b>[Boosters]</b>, use crouch to slam the ground, dealing damage equal to <b>30%</b> of your max Armor and knocking up enemies hit.",
           "id": "p_9"
         },
         {
@@ -5747,27 +5747,27 @@
         },
         {
           "name": "TIME OUT",
-          "description": "<b>[Biotic Grenade]</b> now knocks enemies back and reduces their Move Speed by for 1.<b>5s</b>.",
+          "description": "<b>[Biotic Grenade]</b> now knocks enemies back and reduces their Move Speed by for <b>2.5s</b>.",
           "id": "p_138"
         },
         {
           "name": "VENOMOUS",
-          "description": "<b>[Biotic Grenade]</b> deals an additional <b class=\"stat-ap\">50</b> damage over its duration to enemies affected.",
+          "description": "<b>[Biotic Grenade]</b> deals an additional <b class=\"stat-ap\">75</b> damage over its duration to enemies affected.",
           "id": "p_139"
         },
         {
           "name": "MY TURN",
-          "description": "<b>[Nano Boost]</b> also applies to yourself for <b>50%</b> of its duration.",
+          "description": "<b>[Nano Boost]</b> also applies to yourself for <b>100%</b> of its duration.",
           "id": "p_140"
         },
         {
           "name": "OUR TURN",
-          "description": "<b>[Nano Boost]</b> also affects other allies in your line of sight, but it has a <b>50%</b> reduced duration on them.",
+          "description": "<b>[Nano Boost]</b> also affects other allies in your line of sight, but it has a <b>25%</b> reduced duration on them.",
           "id": "p_141"
         },
         {
           "name": "YOUR FULL POTENTIAL",
-          "description": "<b>[Nano Boost]</b> also grants the target <b>20%</b> Ultimate Charge and <b class=\"stat-ap\">200</b> <b>Overhealth</b>.",
+          "description": "<b>[Nano Boost]</b> also grants the target <b>35%</b> Ultimate Charge and <b class=\"stat-ap\">200</b> <b>Overhealth</b>.",
           "id": "p_142"
         }
       ],
@@ -5799,7 +5799,7 @@
         },
         {
           "name": "BLINK BOOSTS",
-          "description": "<b>[Glide Boost]</b> gains <b>2</b> additional charges and has a <b>65%</b> reduced cooldown, but has <b>75%</b> <b>reduced</b> duration.",
+          "description": "<b>[Glide Boost]</b> gains <b>2</b> additional charges and has a <b>30%</b> reduced cooldown, but has <b>75%</b> <b>reduced</b> duration.",
           "id": "p_148"
         },
         {
@@ -5814,7 +5814,7 @@
         },
         {
           "name": "HYPER HEALER",
-          "description": "Allies affected by <b>[Hyper Ring]</b> gain <b class=\"stat-ap\">100</b> <b>Overhealth</b>.",
+          "description": "Allies affected by <b>[Hyper Ring]</b> gain <b class=\"stat-ap\">75</b> <b>Overhealth</b>.",
           "id": "p_151"
         },
         {
@@ -5866,7 +5866,7 @@
         },
         {
           "name": "CLONE CONJURATION",
-          "description": "After using <b>[Swift Step]</b>, create a clone of yourself that lasts for <b>2.5s</b>.",
+          "description": "After using <b>[Swift Step]</b>, create a clone of yourself that lasts for <b>4s</b>. Clone has <b>65%</b> less damage and healing.",
           "id": "p_161"
         },
         {
@@ -6212,7 +6212,7 @@
         },
         {
           "name": "HOP BOOM",
-          "description": "After launching yourself with <b>[Concussion Mine]</b>, detonate a <b>[Concussion Mine]</b> wherever you land with <b>50%</b> <b>reduced</b> effectiveness."
+          "description": "After launching yourself with <b>[Concussion Mine]</b>, detonate a <b>[Concussion Mine]</b> wherever you land with <b>30%</b> <b>reduced</b> effectiveness."
         },
         {
           "name": "SLAPNEL",
@@ -6224,7 +6224,7 @@
         },
         {
           "name": "RAININ' LEAD",
-          "description": "After launching yourself, drop <b>1</b> <b>[Total Mayhem]</b> bomb with <b>25%</b> reduced damage every <b>0.</b><b>4s</b> while airborne."
+          "description": "After launching yourself, drop <b>1</b> <b>[Total Mayhem]</b> bomb with <b>25%</b> reduced damage every <b>0.3s</b> while airborne."
         },
         {
           "name": "RIP ROLL",
@@ -6246,7 +6246,7 @@
         },
         {
           "name": "DUAL HARMONY",
-          "description": "Gain a <b>2nd</b> <b>[Harmony Orb]</b> but they both heal <b>45%</b> less."
+          "description": "Gain a <b>2nd</b> <b>[Harmony Orb]</b> but they both heal <b>40%</b> less."
         },
         {
           "name": "ENLIGHTENMENT",
@@ -6254,7 +6254,7 @@
         },
         {
           "name": "GOTTA HAVE FAITH",
-          "description": "<b>[Harmony Orb]</b> targets can be out of your line of sight for <b>5s</b> longer before <b>[Harmony Orb]</b> returns to you."
+          "description": "<b>[Harmony Orb]</b> targets can be out of your line of sight for <b>10s</b> longer before <b>[Harmony Orb]</b> returns to you."
         },
         {
           "name": "INNER PEACE",
@@ -6278,7 +6278,7 @@
         },
         {
           "name": "SOUL CONTROL",
-          "description": "<b>[Transcendence]</b> can be canceled early, saving up to <b>65%</b> of your Ultimate Charge."
+          "description": "<b>[Transcendence]</b> can be canceled early, saving up to <b>75%</b> of your Ultimate Charge."
         }
       ]
     }
