@@ -117,7 +117,11 @@ const formatStats = (stats) => {
     if (FLAT_STATS.includes(stat)) {
       formattedStats[stat] = Math.floor(value);
     } else {
-      formattedStats[stat] = `${Math.floor(value)}%`;
+      if (stat === 'Max Ammo') {
+        formattedStats[stat] = `${Math.floor(value)}`;
+      } else {
+        formattedStats[stat] = `${Math.floor(value)}%`;
+      }
     }
   });
   return formattedStats;
