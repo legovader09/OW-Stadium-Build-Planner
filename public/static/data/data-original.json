@@ -1462,6 +1462,25 @@
             }
           ],
           "cost": 9000
+        },
+        {
+          "name": "UNSCOPED RESOURCES",
+          "attributes": [
+            {
+              "type": "WP",
+              "value": "15%"
+            },
+            {
+              "type": "Max Ammo",
+              "value": "4"
+            },
+            {
+              "type": "description",
+              "value": "Unscoped <b>[Biotic Rifle]</b> shots have a <b>50%</b> chance not to consume ammo."
+            }
+          ],
+          "cost": 11000,
+          "character": "Ana"
         }
       ]
     },
@@ -3370,6 +3389,22 @@
           ],
           "cost": 1500,
           "id": "i_173"
+        },
+        {
+          "name": "REFRACTION ARMOR",
+          "attributes": [
+            {
+              "type": "Armor",
+              "value": "25"
+            },
+            {
+              "type": "description",
+              "value": "While you have Armor, gain <b>15%</b> damage reduction against beams."
+            }
+          ],
+          "cost": 2000,
+          "character": "D.VA",
+          "id": "i_173"
         }
       ],
       "rare": [
@@ -5050,7 +5085,7 @@
         },
         {
           "name": "FACETANKING",
-          "description": "<b>[Defense Matrix]</b> heals you for <b>30%</b> of the damage it blocks.",
+          "description": "<b>[Defense Matrix]</b> heals you for <b>50%</b> of the damage it blocks.",
           "id": "p_4"
         },
         {
@@ -5075,7 +5110,7 @@
         },
         {
           "name": "TOKKI SLAM",
-          "description": "During <b>[Boosters]</b>, use crouch to slam the ground, dealing damage equal to <b>30%</b> of your max Armor and knocking up enemies hit.",
+          "description": "During <b>[Boosters]</b>, use crouch to slam the ground, dealing damage equal to <b>30%</b> of your max Armor plus Shield and knocking up enemies hit.",
           "id": "p_9"
         },
         {
@@ -5541,7 +5576,7 @@
         },
         {
           "name": "SLOWBALL",
-          "description": "<b>[Endothermic Blaster]</b>'s secondary fire now shoots a snowball that applies <b>30%</b> slow for Is on critical hit.",
+          "description": "<b>[Endothermic Blaster]</b>'s secondary fire now shoots a snowball that applies <b>30%</b> slow for <b>1s</b> on hit.",
           "id": "p_98"
         },
         {
@@ -5829,7 +5864,7 @@
         },
         {
           "name": "STELLAR FOCUS",
-          "description": "<b>[Orbital Ray]</b> now follows you and its duration is increased by <b>35%</b>.",
+          "description": "<b>[Orbital Ray]</b> now follows you and its duration is increased by <b>50%</b>.",
           "id": "p_154"
         }
       ],
@@ -5871,7 +5906,7 @@
         },
         {
           "name": "FLEET FOOT",
-          "description": "<b>[Swift Step]</b> can be used directionally without a target.",
+          "description": "<b>[Swift Step]</b> can be used directionally without a target. Cooldown is increased by <b>35%</b> when used without a target.",
           "id": "p_162"
         },
         {
