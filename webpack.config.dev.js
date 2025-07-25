@@ -9,7 +9,7 @@ module.exports = merge(base, {
   devServer: {
     static: path.join(__dirname, 'build'),
     port: 3000,
-    https: true,
+    https: false,
     historyApiFallback: true,
   },
   output: {
