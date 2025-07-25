@@ -10,7 +10,6 @@ const CASH_PER_ROUND = [
 ];
 
 export const calculateMinimumCashPerRound = (round) => {
-  console.log('round', round);
   if (round < 0 || round > CASH_PER_ROUND.length) return 0;
   return CASH_PER_ROUND.slice(0, round + 1).reduce((sum, cash) => sum + cash, 0);
 };
